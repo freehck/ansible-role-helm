@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Alex Chistyakov
+  description: install helm
+  role_name: helm
+  license: MIT
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - kubernetes
+    - k8s
+    - helm
+
+dependencies: []
